@@ -60,6 +60,9 @@ Adding files to a local repository is the exact same way you'd add files to a fo
 
 Great job! Now, your local repository has a .txt file. Now, we also want to *change* the remote repository to reflect the updates we made. Before you add files, you should first remind yourself of what files you have added/changed in the first place. You can do this in PyCharm:
 
+![Add and commit](./images/pycharm_add_commit.png)
+
+This will staging and commit in one step.
 
 Or in terminal
 
@@ -94,7 +97,12 @@ Like staging files, committing does not require access to the internet; your cha
 Another important note is that, if you do NOT add a file and commit, the file is not committed even if it is edited and saved. More on this later!
 
 ## Pushing
-Then, once you've added your file and committed it, type:
+Then, once you've added your file and committed it, 
+
+![Add and commit](./images/pycharm_push.png)
+
+Or in terminal:
+
 ```bash
 git push origin main
 ```
