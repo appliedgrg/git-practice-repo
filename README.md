@@ -126,7 +126,7 @@ Like pushing, you will need internet to pull from GitHub.
 ## Merges
 Not only can you add new files, you can also edit existing ones and update them on the remote repository the exact same way you'd add new ones. Git will MERGE your local repository with the remote one, updating it.
 
-Git is even smart enough to merge lines in the *same file*. Let's say Ryan and I are working on two seperate parts of code in `file1.py`. I write a function called `hello_world()` and Ryan writes a function called `random_function()`. First, I do not have Ryan's function on my local repository and he doesn't have mine. But, we both decide to commit and push to the remote repository. Git will actually *merge* our two versions of `file1.py` to  make one with *both `hello_world()` and `random_function()`.* However, something to note is that if multiple people edit the the same lines/sections at once and try to push their commits, you might get an error called a **merge conflict**. More on that later!
+Git is even smart enough to merge lines in the *same file*. Let's say Ryan and I are working on two separate parts of code in `file1.py`. I write a function called `hello_world()` and Ryan writes a function called `random_function()`. First, I do not have Ryan's function on my local repository and he doesn't have mine. But, we both decide to commit and push to the remote repository. Git will actually *merge* our two versions of `file1.py` to  make one with *both `hello_world()` and `random_function()`.* However, something to note is that if multiple people edit the the same lines/sections at once and try to push their commits, you might get an error called a **merge conflict**. More on that later!
 
 ## Branches
 Let's say you're working on a bit of an *ambitious project* that you're not sure will work or not, and, while you want to commit your changes, you don't want to update the remote repository and lose the old work. Another cool feature of GitHub is making different **branches**.
@@ -162,7 +162,7 @@ git push origin (branch name)
 Origin designates what remote we are pushing to and branch indicates what branch we're pushing from.
 
 ### Merging to the Main Branch OR Pull Requests
-You've now edited your code on your seperate branch and it was successful! Time to merge back into the main branch. If you're working on your **own code**, you can just merge back to the main branch with no trouble. However, if you're working on **code with others** you'll want to make a pull request instead.
+You've now edited your code on your separate branch and it was successful! Time to merge back into the main branch. If you're working on your **own code**, you can just merge back to the main branch with no trouble. However, if you're working on **code with others** you'll want to make a pull request instead.
 
 Pull requests are done through GitHub itself and not through Git. In your repository, at the top of the page you will see a tab that says "Pull requests" where you can make a new pull request. Pull requests are useful especially on larger/critical projects where every commit needs to be verified before being added to the code.
 
